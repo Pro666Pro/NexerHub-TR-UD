@@ -3,7 +3,7 @@ getgenv().gethui = function() return game.CoreGui end
 task.wait(1)
 end
 somethingimportant()
-getgenv().NotifyOwner = true -- What does this do? Well its sends me a message when you execute this script, you can disable it if you want to. WARNING!!! Im not doing ip log or other bad things, every sent notification about your execution will be private forever! Then you may ask question, if thats not something malicious, why the fuck did you created it? Well sometimes i just want to join you guys :)
+getgenv().NotifyOwner = false
 game:GetService("StarterGui"):SetCore("SendNotification",{
 	Title = "Script is loading",
 	Text = "May take over a minute to load. Please wait 🙏",
